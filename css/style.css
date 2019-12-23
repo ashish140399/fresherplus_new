@@ -126,7 +126,6 @@ section{
 }
 .volunteers_img:hover > img{
 	filter: grayscale(0%);
-
 }
 .volunteers_img_cntnt{
 	height: 100%;
@@ -156,4 +155,30 @@ section{
 	width: 100%;
 	filter: grayscale(0%);
 
+}
+.Mompreneurship_btn button{
+	margin: 2em 20px 1em 0px;
+	padding: 5px 20px;
+	border-radius: 1em;
+	box-shadow: 0 0px 6px 0 rgba(0,0,0,0.1);
+}
+.Mompreneurship_btnmember:hover{
+	background-color: #292525;
+	color: #fff;
+	opacity: 0.9
+}
+.Mompreneurship_btnfaq:hover{
+color: #292525;
+	background-color: rgba(0,0,0,0.05);
+	border: 1px solid #292525;
+	opacity: 0.9
+}
+.Mompreneurship_btnmember{
+	background-color: #292525;
+	color: #fff;
+}
+.Mompreneurship_btnfaq{
+	color: #292525;
+	background-color: #fff;
+	border: 1px solid #292525;
 }

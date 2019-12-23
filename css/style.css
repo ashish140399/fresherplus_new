@@ -81,7 +81,7 @@ nav .nav-item{
 
 }
 section{
-	padding: 2% 3%;
+	padding: 1.5% 3%;
 }
 .home_banner{
 	color: #fff;
@@ -165,13 +165,19 @@ section{
 .Mompreneurship_btnmember:hover{
 	background-color: #292525;
 	color: #fff;
-	opacity: 0.9
+	opacity: 0.9;
+	-webkit-animation-name: pulse;
+  animation-name: pulse;
+  animation-duration: 0.5s;
 }
 .Mompreneurship_btnfaq:hover{
 color: #292525;
 	background-color: rgba(0,0,0,0.05);
 	border: 1px solid #292525;
-	opacity: 0.9
+	opacity: 0.9;
+	-webkit-animation-name: pulse;
+	  animation-name: pulse;
+	  animation-duration: 0.5s;
 }
 .Mompreneurship_btnmember{
 	background-color: #292525;

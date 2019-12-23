@@ -6,9 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Rufina&display=swap');
-* {
-	font-family: 'Open Sans', sans-serif;
-}
+
 
 @font-face {
 font-family: exposure-core-font;
@@ -37,7 +35,7 @@ html,body{
 	margin: 0;
 	padding: 0;
 	font-size: 1em;
-	font-family: Varela Round;
+	font-family: 'Varela Round', sans-serif;
 
 }
 
@@ -195,7 +193,6 @@ color: #292525;
 
  .Faq_card{
  	background-color: #F8F8F8 !important;
- 
  }
  .card{
  	cursor: pointer;

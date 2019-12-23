@@ -192,14 +192,49 @@ color: #292525;
     }
 
  .Faq_card{
- 	background-color: #F8F8F8 !important;
+ 	background-color: #F8F8F8 ;
+ }
+ .bs-example .card-body{
+ 	padding: 1em 2em !important;
  }
  .card{
  	cursor: pointer;
  }
-  .card button:hover{
- 	text-decoration: none;
+  .card button{
+ 	text-decoration: none !important;
  }
+
  .Faq_card :hover{
- 	background-color: #E8E8E8 !important;
+ 	background-color: #E8E8E8 ;
  }
+
+.Faq_card button{
+	color: #111;
+}
+.Faq_card .fa-chevron-right{
+	margin-right: 5px;
+}
+ .FAQ_applynow{
+	background-color: #292525;
+	color: #fff;
+	display: inline-block;vertical-align: middle;
+	font-size: 12px;
+	border-radius: 15px;
+	padding:5px 10px; 
+	position: relative;
+	top: -4px;
+	margin-left: 5px;
+	-webkit-animation-name: flash;
+  animation-name: flash;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.FAQ_applynow:hover{
+	background-color: #292525;
+	color: #fff;
+	opacity: 0.9;
+	-webkit-animation-name: pulse;
+  animation-name: pulse;
+  animation-duration: 0.5s;
+}

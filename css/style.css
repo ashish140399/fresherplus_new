@@ -85,8 +85,8 @@ nav .nav-item{
 
 }
 section{
-	padding: 1.5% 3%;
-	margin: 0.5% 0%;
+	padding: 10px 3% 15px 3%;
+	margin: 1% 0%;
 }
 .home_banner{
 	color: #fff;
@@ -254,4 +254,12 @@ color: #292525;
 	padding:0px;
 	display: block;
 	margin: auto;
+}
+.footer_innersubd{
+	font-size: 15px;
+	margin-bottom: 3px;
+}
+.developer_footer{
+	position: relative;
+	margin-bottom:  -2em;
 }

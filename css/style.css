@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+
+
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
@@ -53,7 +58,8 @@ nav .navbar-brand{
     letter-spacing: .15em;
 }
 nav .nav-item{
-	font-family: 'Varela Round', sans-serif;
+	/*font-family: 'Varela Round', sans-serif;*/
+	font-family: 'Josefin Sans', sans-serif;
 }
 .nav_border_hover{
 	height: 2px;
@@ -79,12 +85,13 @@ nav .nav-item{
 
 }
 section{
-	padding: 0% 3%;
-	margin: 2% 0%;
+	padding: 1.5% 3%;
+	margin: 0.5% 0%;
 }
 .home_banner{
 	color: #fff;
-	font-family: "Roboto";
+	/*font-family: "Roboto";*/
+	font-family: 'Anton', sans-serif;
 	font-size: 3.5em;
 	position: relative;
 	top: 50%;
@@ -217,7 +224,8 @@ color: #292525;
  .FAQ_applynow{
 	background-color: #292525;
 	color: #fff;
-	display: inline-block;vertical-align: middle;
+	display: inline-block;
+	vertical-align: middle;
 	font-size: 12px;
 	border-radius: 15px;
 	padding:5px 10px; 
@@ -225,9 +233,9 @@ color: #292525;
 	top: -4px;
 	margin-left: 5px;
 	-webkit-animation-name: flash;
-  animation-name: flash;
-  animation-duration: 0.5s;
-  animation-iteration-count: infinite;
+	animation-name: flash;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
 }
 
 .FAQ_applynow:hover{
@@ -237,4 +245,13 @@ color: #292525;
 	-webkit-animation-name: pulse;
   animation-name: pulse;
   animation-duration: 0.5s;
+}
+
+.founder_image{
+	width:  70%;
+	border-radius: 50%;
+	border:1px solid #fff;
+	padding:0px;
+	display: block;
+	margin: auto;
 }

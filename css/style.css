@@ -606,3 +606,12 @@ color: #292525;
 .abcdef{
 	display: none;
 }
+
+.Our_services_logos img{
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+.Our_services_logos .col-2{
+	margin: 10px 0px;
+}

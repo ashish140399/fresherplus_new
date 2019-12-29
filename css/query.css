@@ -122,6 +122,10 @@
 .stair_info span{
 	font-size: 1.5em;
 }
+.Our_services_logos img{
+	width: 90%;
+	display: block;
+
 }
 
 @media only screen and (max-width: 1024px) {

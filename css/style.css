@@ -267,22 +267,9 @@ color: #292525;
 	display: block;
 	margin: auto;
 }
-.footer_innersubd{
-	font-size: 15px;
-	margin-bottom: 3px;
-}
-.developer_footer{
-	position: relative;
-	margin-bottom:  -2em;
-}
-.footer_col9 b{
-	font-size: 1.2em;
-	font-weight: 500;
-}
-.footer_founder_info{
-	font-size: 1.6em;
-	font-weight: 500;
-}
+
+
+
 
 
 .Returnship_btn button{
@@ -375,4 +362,168 @@ color: #292525;
 
 .stairs .col-sm-3{
 
+}
+
+
+.software_industry img{
+	width: 5em;
+	height:5em;
+	margin: 5px 0px
+}
+.software_industry div{
+	color:#767676;
+}
+.home_stairs .stair1{
+	position: absolute;
+	bottom: 105px;
+	color: #fff;
+	left: 460px;
+	border:1px solid #fff;
+	padding: 5px 8px;
+	font-size: 14px;
+}
+
+.home_stairs .stair2{
+	position: absolute;
+	bottom: 180px;
+	color: #fff;
+	left: 390px;
+	border:1px solid #fff;
+	padding: 5px 8px;
+	font-size: 14px;
+}
+.home_stairs .stair3{
+	position: absolute;
+	bottom: 255px;
+	color: #fff;
+	left: 310px;
+	border:1px solid #fff;
+	padding: 5px 8px;
+	font-size: 14px;
+}
+.home_stairs .stair4{
+	position: absolute;
+	bottom: 335px;
+	color: #fff;
+	left: 235px;
+	border:1px solid #fff;
+	padding: 5px 8px;
+	font-size: 14px;
+}
+.stair_info{
+	position: absolute;
+	bottom: 390px;
+	color: #fff;
+	left: 255px;
+	padding: 5px 8px;
+}
+.stair_info img{
+	height:  6em;
+}
+
+.stair_info span{
+	font-size: 1.2em;
+}
+.stairs_bgimg{
+	height: 600px;
+	margin: auto;
+	border-radius: 15px;
+}
+.footer_developer{
+	padding :10px 3% ;
+	background-color:#0B0B0B;
+	color: #787878;
+	margin-top: 5%;
+}
+.footer_developer_mnbx{
+	position: relative;
+	margin-bottom:  -2em;
+}
+.footer_developer_image{
+	width:  9em;
+	height: 9em;
+	margin: 0em 1em;
+	box-shadow: 0 8px 6px -6px rgba(255,255,255,0.2);
+	position: relative;
+	top: -2.6em;
+}
+.footer_developer_image img{
+	width:  100%;
+	border-radius: 2%;
+	padding:0px;
+	margin: auto;
+	display: block;
+	border: 2px solid #fff;
+}
+
+
+.footer_developer_heading span{
+	font-size: 1.3em
+}
+.footer_developer_intro span{
+	font-size: 1.2em;
+	color: rgba(255,255,255,0.7);
+}
+.footer_developer_cntct i{
+	font-size:18px;
+	color:#787878;
+	margin: 0px 0px;
+}
+
+.footer_common{
+	padding :10px 3%;
+	background-color: #0B0B0B;
+}
+.footer_common_cntct i{
+	font-size: 1.5em;
+	margin: 0px 5px;
+	color:#777777!important
+}
+.footer_ceo{
+	padding :10px 3% ;
+	background-color:#0B0B0B;
+	color: #787878;
+	margin-top: 9em;
+}
+.footer_ceo_image{
+	position: relative;
+	width: 20em;
+	top: -7em;
+	margin-bottom: -6em
+}
+.footer_ceo_name{
+	text-align: center;
+	font-size: 1.6em;
+	font-weight: 500;
+}
+.footer_ceo_info{
+	text-align: center;
+}
+.footer_ceo_info i{
+	font-size:20px;
+	color:#787878;
+	margin: 0px 2px;
+}
+
+
+
+
+.page_header{
+	height: 100%;
+	width:100%;
+	max-height: 13em;
+}
+.page_header_bg{
+	background:url('images/background.jpg');
+	filter: blur(0px);
+	height: 100%;
+	width:100%
+}
+
+.returnship_card1img{
+	width: 20%;
+}
+.returnship_card1info{
+	width: 80%;
+	padding: 6px 10px
 }

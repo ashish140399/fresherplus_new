@@ -1,12 +1,16 @@
-@media only screen and (max-width: 1400px) {
-	.nav_e{
-	display: none;
+@media only screen and (max-width: 1024px) {
+	.software_industry img {
+	    width: 3.5em;
+	    height: 3.5em;
 	}
-	.nav_c{
-		display: block;
+	.volunteers_img{
+		width: 70%
 	}
-	.section_bx_h{
-		font-size: 38px;
+	.returnship_card1img{
+		width: 30%
+	}
+	.returnship_card1info{
+		width: 70%
 	}
 	
 }

@@ -141,10 +141,19 @@ section{
 	border-radius: 50%;
 }
 .ev-mn-subcntnt{
-
+	text-align: center;
+	color: #323232;
+	font-size: 13px;
 }
 .ev-mn-cntnt{
 	margin: 8px 0px 2px 0px;
+}
+.returnship-mn-subcntnt{
+
+}
+.returnship-mn-cntnt{
+	margin: 8px 0px 2px 0px;
+	font-size: 17px;
 }
 .returnship .volunteers_img{
 	
@@ -329,4 +338,36 @@ color: #292525;
 .card i:hover{
 	background-color: #fff !important;
 	text-decoration: none;
+}
+
+
+.Pagelocator_prev:hover{
+	background-color: #292525;
+	color: #fff;
+	opacity: 0.9;
+	-webkit-animation-name: pulse;
+  animation-name: pulse;
+  animation-duration: 0.5s;
+}
+.Pagelocator_next:hover{
+color: #292525;
+	background-color: rgba(0,0,0,0.05);
+	border: 1px solid #292525;
+	opacity: 0.9;
+	-webkit-animation-name: pulse;
+	animation-name: pulse;
+	animation-duration: 0.5s;
+}
+.Pagelocator_prev{
+	background-color: #292525;
+	color: #fff;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.Pagelocator_next{
+	color: #292525;
+	background-color: #fff;
+	border: 1px solid #292525;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 }

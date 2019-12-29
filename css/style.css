@@ -376,7 +376,7 @@ color: #292525;
 	height:5em;
 	margin: 5px 0px
 }
-.software_industry div{
+.software_industry a{
 	color:#767676;
 }
 .home_stairs .stair1{
@@ -547,4 +547,44 @@ color: #292525;
 }
 .mentors_evenrow .col-sm-4{
 	border-radius: 50%;
+}
+
+
+
+/* tooltip*/
+.tooltip1 {
+ 
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  color: #000
+}
+
+.tooltip1 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip1 .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip1:hover .tooltiptext {
+  visibility: visible;
 }

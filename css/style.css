@@ -106,6 +106,7 @@ section{
 .mn-cntnt{
 	color: #333333;
 	font-family: "GTWalsheim", sans-serif;
+	text-align: center;
 }
 .sec_bisi .col-sm-4{
 	text-align: center;
@@ -370,4 +371,8 @@ color: #292525;
 	border: 1px solid #292525;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
+}
+
+.stairs .col-sm-3{
+
 }

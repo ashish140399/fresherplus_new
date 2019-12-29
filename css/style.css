@@ -140,21 +140,19 @@ section{
 	border-radius: 50%;
 }
 .ev-mn-subcntnt{
-	text-align: center;
-	font-size: 0.85em;
-	color:#767676
+
 }
 .ev-mn-cntnt{
-	text-align: center;
-	font-weight: 500;
 	margin: 8px 0px 2px 0px;
 }
 .returnship .volunteers_img{
-	background-color: #f3f5f9;
-	padding:  4% 5%;
+	
+	padding:  0.5em;
 	width: 100%;
 	border-radius: 3%;
-	margin: auto;
+}
+.returnship .row{
+	background-color: #f3f5f9;
 }
 .returnship .volunteers_img img{
 	border-radius: 3%;
@@ -199,10 +197,13 @@ color: #292525;
     }
 
  .Faq_card{
- 	background-color: #F8F8F8 ;
+ 	background-color: #fff !important ;
+ }
+ .Faq_card .card-header{
+ 	background-color:transparent;
  }
  .bs-example .card-body{
- 	padding: 1em 2em !important;
+ 	padding: 0em 2em 1em 2em !important;
  }
  .card{
  	cursor: pointer;
@@ -232,10 +233,10 @@ color: #292525;
 	position: relative;
 	top: -4px;
 	margin-left: 5px;
-	-webkit-animation-name: flash;
+	/*-webkit-animation-name: flash;
 	animation-name: flash;
 	animation-duration: 0.5s;
-	animation-iteration-count: infinite;
+	animation-iteration-count: infinite;*/
 }
 
 .FAQ_applynow:hover{
@@ -270,4 +271,61 @@ color: #292525;
 .footer_founder_info{
 	font-size: 1.6em;
 	font-weight: 500;
+}
+
+
+.Returnship_btn button{
+	margin: 10px 20px 10px 0px;
+	font-size: 13px;
+	padding: 5px 20px;
+	border-radius: 1em;
+	box-shadow: 0 0px 6px 0 rgba(0,0,0,0.1);
+}
+.Returnship_btnmember:hover{
+	background-color: #292525;
+	color: #fff;
+	opacity: 0.9;
+	-webkit-animation-name: pulse;
+  animation-name: pulse;
+  animation-duration: 0.5s;
+}
+.Returnship_btnfaq:hover{
+color: #292525;
+	background-color: rgba(0,0,0,0.05);
+	border: 1px solid #292525;
+	opacity: 0.9;
+	-webkit-animation-name: pulse;
+	animation-name: pulse;
+	animation-duration: 0.5s;
+}
+.Returnship_btnmember{
+	background-color: #292525;
+	color: #fff;
+}
+.Returnship_btnfaq{
+	color: #292525;
+	background-color: #fff;
+	border: 1px solid #292525;
+}
+.card{
+	border:0px;
+	border-bottom: 1px solid rgba(0,0,0,.125) !important;
+}
+.card-header{
+	border-bottom: 0px;
+}
+.card-header .btn-link{
+	color: #323232 !important;
+	font-weight: 600;
+}
+.card-header .btn-link:hover{
+	background-color: #fff !important;
+}
+.card div:hover{
+	background-color: #fff !important;
+	text-decoration: none;
+}
+.card i:hover{
+	background-color: #fff !important;
+	text-decoration: none;
 }

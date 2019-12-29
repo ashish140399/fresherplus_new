@@ -24,49 +24,104 @@
 	
 }
 @media only screen and (max-width: 768px) {
-	.navbar-brand{
-		font-size: 1.85em;
-	}
 	
-  .home_centre{
-		font-size: 3em;
-	}
+
 	
 }
 @media only screen and (max-width: 991px) {
-	.strip_head_show{
+	.navbar-collapse{
 		display: block;
 	}
-	.strip_head_hide{
-		display: none;
+	nav{
+		background-color: #fff;
+		box-shadow: 0 6px 26px -6px black;
 	}
-	.body_hero_bx_strips_l .section_bx_cntn {
-	    margin: 2.5em 1em;
+	.nav-link{
+		color: #000
 	}
-	.body_hero_bx_strips_r .section_bx_cntn {
-	    margin: 2.5em 1em;
-	}
-	.section_bx_sub_cntn_main{
-		margin: 15px 20px;
-	}
-	.section_bx_h{
-		top: 0em;
-	}
-	.footer_founder_image{
-	border-radius: 50%;padding:0% 0%;
-}
-}
-@media only screen and (max-width: 425px) {
 	.navbar-brand{
-		font-size: 1.7em;
+		color: #000
 	}
 	.fa-bars{
-		font-size: 1.3em;
+		color: #000
 	}
-	.navbar{
-		padding: 0.5em 2em;
+	.footer_developer_mnbx{
+		position: relative;
+		margin-bottom:  0em;
+		display: block;
+		justify-content: flex-start;
+	}
+	.footer_developer_image{
+		margin: 0 auto -2em auto;
+		width: 8em;
+		height: 8em;
+	}
+	.footer_developer_cntnt{
+		text-align: center;
 	}
 
+}
+@media only screen and (max-width: 630px) {
+	.home_stairsxs{
+		display: block;
+	}
+	.home_stairslg{
+		display: none;
+	}
+	.abcdef{
+		display: block;
+	}
+	.home_stairslg_mbx{
+		display: none;
+	}
+	.abcdef{
+		background-image: url('../images/targetedmarketing2.jpg');
+		background-position: right center;
+		border-radius: 15px;
+		height: 600px;
+		background-size: cover;
+		width: 100%;
+	}
+	.home_stairs .stair1{
+	position: absolute;
+	bottom: 105px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.home_stairs .stair2{
+	position: absolute;
+	bottom: 180px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.home_stairs .stair3{
+	position: absolute;
+	bottom: 255px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.home_stairs .stair4{
+	position: absolute;
+	bottom: 335px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.stair_info{
+	position: relative;
+	bottom: 0;
+	left: 0;
+	top: 30px;
+	margin: auto;
+
+}
+.stair_info img{
+	margin: auto;
+	display: block;
+}
+.stair_info span{
+	font-size: 1.5em;
+}
 }
 
 @media only screen and (max-width: 1024px) {

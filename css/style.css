@@ -44,12 +44,19 @@ html,body{
 
 }
 
-
+.navbar-collapse{
+	display: flex;
+	justify-content: flex-end;
+}
 nav a{
 	color: #fff;
 }
 nav{
 	padding:  0.5% 3% !important;
+}
+.fa-bars{
+	color: #fff;
+	font-size: 1.2em
 }
 nav .navbar-brand{
 	font-family: 'Rufina', serif;
@@ -444,6 +451,8 @@ color: #292525;
 .footer_developer_mnbx{
 	position: relative;
 	margin-bottom:  -2em;
+	display: flex;
+	justify-content: flex-start;
 }
 .footer_developer_image{
 	width:  9em;
@@ -587,4 +596,13 @@ color: #292525;
 
 .tooltip1:hover .tooltiptext {
   visibility: visible;
+}
+
+
+
+.home_stairsxs{
+	display: none;
+}
+.abcdef{
+	display: none;
 }

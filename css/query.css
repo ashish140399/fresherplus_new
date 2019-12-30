@@ -85,23 +85,23 @@
 		width: 100%;
 	}
 	.home_stairs .stair1{
-		position: absolute;
 		bottom: 105px;
-		left: 50%;
-		transform: translateX(-50%);
+		transform: translateX(0%);
+		left: 70%;
 	}
 
 	.home_stairs .stair2{
-		left: 50%;
-		transform: translateX(-50%);
+
+		transform: translateX(-10%);
+		left: auto;
 	}
 	.home_stairs .stair3{
-		left: 50%;
-		transform: translateX(-50%);
+		transform: translateX(-10%);
+		left: auto;
 	}
 	.home_stairs .stair4{
-		left: 50%;
-		transform: translateX(-50%);
+		transform: translateX(-140%);
+		left: auto;
 	}
 	.stair_info{
 		position: relative;
@@ -147,7 +147,28 @@
 	}
 
 }
+@media only screen and (max-width: 340px) {
+	.home_stairs .stair1{
+		bottom: 105px;
+		transform: translateX(-25%);
+		left: 70%;
+	}
 
+	.home_stairs .stair2{
+
+		transform: translateX(-10%);
+		left: auto;
+	}
+	.home_stairs .stair3{
+		transform: translateX(-10%);
+		left: auto;
+	}
+	.home_stairs .stair4{
+		transform: translateX(-110%);
+		left: auto;
+	}
+
+}
 @media only screen and (max-width: 768px) {
 	.footer_ceo_image{
 		width: 17em;

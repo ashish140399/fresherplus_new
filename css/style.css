@@ -600,11 +600,11 @@ color: #292525;
 }
 
 .Our_services_logos img{
-	width: 50%;
+	width: 100%;
 	display: block;
 	margin: auto;
 }
-.Our_services_logos .col-2{
+.Our_services_logos div{
 	margin: 10px 0px;
 }
 .returnship_card1{

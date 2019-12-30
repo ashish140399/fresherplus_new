@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
-
-
-
-
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Karla');
@@ -11,21 +7,13 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Rufina&display=swap');
-
-
-@font-face {
-font-family: exposure-core-font;
-src: url("exposure-core-font.woff");
-}
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 @font-face {
   font-family: 'Varela Round';
   src:url('VarelaRound-Regular.otf') format('otf'), /* Pretty Modern Browsers */
 
 }
-@font-face {
-font-family: Berlin;
-src: url("berlin.ttf");
-}
+
 @font-face {
   font-family: 'GTWalsheim';
   src:url('GTWalsheimProBold.ttf') format('ttf'), /* Pretty Modern Browsers */
@@ -34,14 +22,17 @@ src: url("berlin.ttf");
 a:hover{
 	text-decoration: none;
 }
+*{
+	font-family: 'Varela Round', sans-serif;
+}
 html,body{
 	width: 100%;
 	height: 100%;
 	margin: 0;
 	padding: 0;
 	font-size: 1em;
-	font-family: 'Varela Round', sans-serif;
-
+	
+	font-family: 'raleway', sans-serif;
 }
 
 .navbar-collapse{
@@ -529,8 +520,9 @@ color: #292525;
 	max-height: 13em;
 }
 .page_header_bg{
-	background:url('../images/background.jpg');
+	background:url('../images/background2.jpg');
 	background-size: cover;
+	background-position: center;
 	filter: blur(0px);
 	height: 100%;
 	width:100%
@@ -614,4 +606,7 @@ color: #292525;
 }
 .Our_services_logos .col-2{
 	margin: 10px 0px;
+}
+.returnship_card1{
+	display: flex;justify-content: flex-start;
 }

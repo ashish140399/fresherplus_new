@@ -19,15 +19,11 @@
 		font-size: 32px;
 	}
 	.footer_founder_image{
-	border-radius: 50%;padding:0% 10%;
-}
+		border-radius: 50%;padding:0% 10%;
+	}
 	
 }
-@media only screen and (max-width: 768px) {
-	
 
-	
-}
 @media only screen and (max-width: 991px) {
 	.navbar-collapse{
 		display: block;
@@ -59,9 +55,15 @@
 	.footer_developer_cntnt{
 		text-align: center;
 	}
+	.nav-link{
+		font-size: 1.1em;
+	}
 
 }
 @media only screen and (max-width: 630px) {
+	.nav-link{
+		font-size: 1em;
+	}
 	.home_stairsxs{
 		display: block;
 	}
@@ -83,84 +85,121 @@
 		width: 100%;
 	}
 	.home_stairs .stair1{
-	position: absolute;
-	bottom: 105px;
-	left: 50%;
-	transform: translateX(-50%);
-}
-
-.home_stairs .stair2{
-	position: absolute;
-	bottom: 180px;
-	left: 50%;
-	transform: translateX(-50%);
-}
-.home_stairs .stair3{
-	position: absolute;
-	bottom: 255px;
-	left: 50%;
-	transform: translateX(-50%);
-}
-.home_stairs .stair4{
-	position: absolute;
-	bottom: 335px;
-	left: 50%;
-	transform: translateX(-50%);
-}
-.stair_info{
-	position: relative;
-	bottom: 0;
-	left: 0;
-	top: 30px;
-	margin: auto;
-
-}
-.stair_info img{
-	margin: auto;
-	display: block;
-}
-.stair_info span{
-	font-size: 1.5em;
-}
-.Our_services_logos img{
-	width: 90%;
-	display: block;
-
-}
-
-@media only screen and (max-width: 1024px) {
-	.home_centre{
-		font-size: 4em;
+		position: absolute;
+		bottom: 105px;
+		left: 50%;
+		transform: translateX(-50%);
 	}
-	.carousel-inner img {
-		width: auto;
-      height: 100%;
-  }
+
+	.home_stairs .stair2{
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.home_stairs .stair3{
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.home_stairs .stair4{
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.stair_info{
+		position: relative;
+		bottom: 0;
+		text-align: center;
+		left: 0;
+		top: 30px;
+		margin: auto;
+
+	}
+	.stair_info img{
+		margin: auto;
+		display: block;
+	}
+	.stair_info span{
+		font-size: 1.5em;
+	}
+	.Our_services_logos img{
+		width: 90%;
+		display: block;
+	}
+	.returnship_card1{
+		margin: auto;
+	} 
+	.Returnship_btn button{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	.returnship_card1{
+		width: 70%;
+	}
+
+}
+@media only screen and (max-width: 375px) {
+	.footer_developer_image{
+		margin: 0 auto -2em auto;
+		width: 7em;
+		height: 7em;
+	}
+	.returnship_card1{
+		width: 90%;
+	}
+
 }
 
-@media only screen and (max-width: 500px) {
-	.section_bx_h {
-	    font-size: 20px;
-	    padding: 5px;
+@media only screen and (max-width: 768px) {
+	.footer_ceo_image{
+		width: 17em;
 	}
-	.home_centre {
-	     font-size: 2.5em;
+	.volunteers_img{
+		width: 80%;
 	}
-	.row {
-	    margin-right: 0px;
-	    margin-left: 0px;
+	.returnship_card1{
+		display: block;
+		justify-content: flex-start;
+		width: 60%;
+		background-color: rgba(0,0,0,0.03);
+		border-radius: 10px;padding: 0.2em;
 	}
-	.hb_toggle_n{
-		font-size: 22px;
+	.returnship_card1info{
+		width: 100%;
+	}
+	.returnship_card1img{
+		width: 100%;
+	}
+	.Mompreneurship_btn button{
+		margin: 10px 10px 10px 0;
+	}
+	.volunteers_img{
+		width: 90%;
 	}
 }
 
-@media only screen and (max-width: 574px) {
-	.footer_founder_image{
-	border-radius: 50%;padding:5% 30%;
-}
-.footer_heading{
-	margin-bottom: 0em;
-	font-size: 38px;
-}
+@media only screen and (max-width: 576px) {
+	.footer_ceo_image{
+			width: 15em;
+		}
+		.returnship_card1{
+		width: 80%;
+	}
+	.card-header{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.bs-example{
+		margin: 10px 8px;
+	}
+	.pg-head_b{
+		font-size: 2.5em;
+	}
+	.volunteers_img {
+		width: 50%;
+		margin-top: 20px ;
+		margin-bottom: 20px;
+	}
+	.mentors_evenrow{
+		width: 100%;
+	}
+
 }

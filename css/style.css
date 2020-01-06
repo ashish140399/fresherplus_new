@@ -528,9 +528,9 @@ color: #292525;
 	max-height: 13em;
 }
 .page_header_bg{
-	background:url('../images/background2.jpg');
+	background:url('../images/background4bg.jpg');
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
 	filter: blur(0px);
 	height: 100%;
 	width:100%
